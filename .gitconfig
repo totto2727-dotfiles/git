@@ -1,0 +1,34 @@
+[core]
+pager = delta
+ignorecase = false
+
+[init]
+defaultBranch = main
+
+[pull]
+rebase = true
+
+[interactive]
+diffFilter = delta --color-only
+
+[merge]
+conflictstyle = diff3
+
+[delta]
+navigate = true
+dark = true
+line-numbers = true
+side-by-side = true
+
+[gpg]
+format = ssh
+
+[commit]
+gpgsign = true
+
+[tag]
+gpgsign = true
+
+[include]
+path = ~/.config/git/tokyonight_moon.gitconfig
+path = ~/.config/git/user.gitconfig

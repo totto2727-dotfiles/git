@@ -1,0 +1,13 @@
+[user]
+name = totto2727
+email = kaihatu.totto2727@gmail.com
+signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF30Cx+/GKFrJTr4Km/zogMr88fxcljdzDk/+MCFTd4t
+
+[gpg]
+format = ssh
+
+[gpg "ssh"]
+program = "/opt/1Password/op-ssh-sign"
+
+[commit]
+gpgsign = true
